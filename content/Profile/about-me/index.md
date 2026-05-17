@@ -7,14 +7,12 @@ showDate: false
 showReadingTime: false
 ---
 
-Shota Ikari
-
-# Affiliation
+## Affiliation
 
 Master's student, Department of Information Physics and Computing, Graduate School of Information Science and Technology, The University of Tokyo.  
 [Nakamura-Takase Laboratory](https://hal.ipc.i.u-tokyo.ac.jp/en/)
 
-# Education
+## Education
 
 | Period | Affiliation |
 | --- | --- |
@@ -22,7 +20,7 @@ Master's student, Department of Information Physics and Computing, Graduate Scho
 | 2021.04 - 2025.03 | Department of Electrical and Electronic Engineering, Faculty of Engineering, Kyoto University |
 | 2018.04 - 2021.03 | Osaka Prefectural Ibaraki High School |
 
-# Experience
+## Experience
 
 | Period | Affiliation |
 | --- | --- |
@@ -31,7 +29,7 @@ Master's student, Department of Information Physics and Computing, Graduate Scho
 | 2025.04 - 2026.01 | The University of Tokyo TA |
 | 2022.03 - 2024.08 | DATAGRID Software Engineer |
 
-# Certifications
+## Certifications
 
 | Date | Certification |
 | --- | --- |

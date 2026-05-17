@@ -1,4 +1,9 @@
 [[main]]
   name = "プロフィール"
-  pageRef = "Profile/about-me"
+  pageRef = "Profile"
   weight = 10
+
+[[main]]
+  name = "研究"
+  pageRef = "Research"
+  weight = 20

@@ -12,8 +12,13 @@
 
 [[main]]
   name = "Profile"
-  pageRef = "Profile/about-me"
+  pageRef = "Profile"
   weight = 10
+
+[[main]]
+  name = "Research"
+  pageRef = "Research"
+  weight = 20
 
 #[[main]]
 #  name = "Parent"
