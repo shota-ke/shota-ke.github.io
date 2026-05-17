@@ -1,0 +1,23 @@
+version: "3"
+
+vars:
+  PORT: '{{default "1313" .PORT}}'
+  PROFILE_JA: content/Profile/about-me/index.ja.md
+  PROFILE_EN: content/Profile/about-me/index.md
+
+tasks:
+  default:
+    desc: Show available tasks.
+    cmds:
+      - task --list
+
+  server:
+    desc: Start the Hugo development server.
+    cmds:
+      - hugo server -D 
+
+  edit:
+    desc: Edit the profile content.
+    cmds:
+      - npx blowfish-tools
+    

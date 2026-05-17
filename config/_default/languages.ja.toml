@@ -2,7 +2,7 @@ disabled = false
 locale = "ja"
 label = "日本語"
 weight = 2
-title = "Ikari Shota"
+title = "Shota Ikari"
 
 [params]
 displayName = "日本語"

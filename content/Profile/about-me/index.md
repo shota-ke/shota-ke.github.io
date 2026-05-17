@@ -36,8 +36,3 @@ Master's student, Department of Information Physics and Computing, Graduate Scho
 | Date | Certification |
 | --- | --- |
 | 2024.09 | Japan Statistical Society Certificate, Grade Pre-1 |
-
-# Links
-
-- [GitHub](https://github.com/shota-ke)
-- [LinkedIn](https://www.linkedin.com/in/shota-ikari-237168268/)

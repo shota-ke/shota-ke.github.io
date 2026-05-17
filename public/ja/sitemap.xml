@@ -3,51 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://shotaIkari.github.io/ja/</loc>
+    <loc>http://localhost:1313/ja/</loc>
     <lastmod>2026-05-18T01:06:44+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://shotaIkari.github.io/"
+      href="http://localhost:1313/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ja"
-      href="https://shotaIkari.github.io/ja/"
+      href="http://localhost:1313/ja/"
     />
   </url>
   <url>
-    <loc>https://shotaIkari.github.io/ja/profile/</loc>
+    <loc>http://localhost:1313/ja/profile/</loc>
     <lastmod>2026-05-18T01:06:44+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://shotaIkari.github.io/profile/"
+      href="http://localhost:1313/profile/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ja"
-      href="https://shotaIkari.github.io/ja/profile/"
+      href="http://localhost:1313/ja/profile/"
     />
   </url>
   <url>
-    <loc>https://shotaIkari.github.io/ja/profile/about-me/</loc>
+    <loc>http://localhost:1313/ja/profile/about-me/</loc>
     <lastmod>2026-05-18T01:06:44+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://shotaIkari.github.io/profile/about-me/"
+      href="http://localhost:1313/profile/about-me/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ja"
-      href="https://shotaIkari.github.io/ja/profile/about-me/"
+      href="http://localhost:1313/ja/profile/about-me/"
     />
   </url>
 </urlset>
