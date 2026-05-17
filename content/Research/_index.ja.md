@@ -1,4 +1,5 @@
 ---
+layout: "simple"
 title: "研究"
 description: "研究関心と研究活動。"
 showDate: false

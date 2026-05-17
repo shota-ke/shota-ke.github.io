@@ -1,4 +1,5 @@
 ---
+layout: "simple"
 title: "Research"
 description: "Research interests and activities."
 showDate: false
