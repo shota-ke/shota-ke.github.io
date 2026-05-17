@@ -1,0 +1,43 @@
+---
+title: "About Me"
+date: 2026-05-18T01:06:44+09:00
+draft: false
+description: "Profile and career of Shota Ikari."
+showDate: false
+showReadingTime: false
+---
+
+Shota Ikari
+
+# Affiliation
+
+Master's student, Department of Information Physics and Computing, Graduate School of Information Science and Technology, The University of Tokyo.  
+[Nakamura-Takase Laboratory](https://hal.ipc.i.u-tokyo.ac.jp/en/)
+
+# Education
+
+| Period | Affiliation |
+| --- | --- |
+| 2025.04 - Present | Master's Program, Department of Information Physics and Computing, Graduate School of Information Science and Technology, The University of Tokyo |
+| 2021.04 - 2025.03 | Department of Electrical and Electronic Engineering, Faculty of Engineering, Kyoto University |
+| 2018.04 - 2021.03 | Osaka Prefectural Ibaraki High School |
+
+# Experience
+
+| Period | Affiliation |
+| --- | --- |
+| 2025.05 - Present | Preferred Networks, Inc. Research Engineer |
+| 2026.01 - 2026.02 | Recruit Co., Ltd. Software Engineer Internship |
+| 2025.04 - 2026.01 | The University of Tokyo TA |
+| 2022.03 - 2024.08 | DATAGRID Software Engineer |
+
+# Certifications
+
+| Date | Certification |
+| --- | --- |
+| 2024.09 | Japan Statistical Society Certificate, Grade Pre-1 |
+
+# Links
+
+- [GitHub](https://github.com/shota-ke)
+- [LinkedIn](https://www.linkedin.com/in/shota-ikari-237168268/)

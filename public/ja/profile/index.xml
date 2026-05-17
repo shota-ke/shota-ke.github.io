@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>プロフィール on Ikari Shota</title>
+    <link>https://shotaIkari.github.io/ja/profile/</link>
+    <description>Recent content in プロフィール on Ikari Shota</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>© 2026 Shota Ikari</copyright>
+    <lastBuildDate>Mon, 18 May 2026 01:06:44 +0900</lastBuildDate><atom:link href="https://shotaIkari.github.io/ja/profile/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>プロフィール</title>
+      <link>https://shotaIkari.github.io/ja/profile/about-me/</link>
+      <pubDate>Mon, 18 May 2026 01:06:44 +0900</pubDate>
+      
+      <guid>https://shotaIkari.github.io/ja/profile/about-me/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://shotaIkari.github.io/profile/about-me/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

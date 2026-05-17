@@ -1,0 +1,4 @@
+[[main]]
+  name = "プロフィール"
+  pageRef = "Profile/about-me"
+  weight = 10

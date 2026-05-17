@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://shotaIkari.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2026-05-18T01:06:44+09:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://shotaIkari.github.io/ja/sitemap.xml</loc>
+    
+      <lastmod>2026-05-18T01:06:44+09:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>
