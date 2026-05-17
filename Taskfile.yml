@@ -1,10 +1,5 @@
 version: "3"
 
-vars:
-  PORT: '{{default "1313" .PORT}}'
-  PROFILE_JA: content/Profile/about-me/index.ja.md
-  PROFILE_EN: content/Profile/about-me/index.md
-
 tasks:
   default:
     desc: Show available tasks.
