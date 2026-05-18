@@ -3,48 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/ja/</loc>
+    <loc>https://shota-ke.github.io/ja/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/"
+      href="https://shota-ke.github.io/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ja"
-      href="http://localhost:1313/ja/"
+      href="https://shota-ke.github.io/ja/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/ja/profile/</loc>
+    <loc>https://shota-ke.github.io/ja/profile/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/profile/"
+      href="https://shota-ke.github.io/profile/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ja"
-      href="http://localhost:1313/ja/profile/"
+      href="https://shota-ke.github.io/ja/profile/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/ja/research/</loc>
+    <loc>https://shota-ke.github.io/ja/research/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/research/"
+      href="https://shota-ke.github.io/research/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ja"
-      href="http://localhost:1313/ja/research/"
+      href="https://shota-ke.github.io/ja/research/"
     />
   </url>
 </urlset>
