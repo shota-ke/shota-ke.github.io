@@ -1,1 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://shota-ke.github.io/notes/</loc><changefreq>daily</changefreq><priority>0.5</priority></url><url><loc>https://shota-ke.github.io/profile/</loc><changefreq>daily</changefreq><priority>0.5</priority><xhtml:link rel="alternate" hreflang="ja" href="https://shota-ke.github.io/ja/profile/"/><xhtml:link rel="alternate" hreflang="en" href="https://shota-ke.github.io/profile/"/></url><url><loc>https://shota-ke.github.io/research/</loc><changefreq>daily</changefreq><priority>0.5</priority><xhtml:link rel="alternate" hreflang="ja" href="https://shota-ke.github.io/ja/research/"/><xhtml:link rel="alternate" hreflang="en" href="https://shota-ke.github.io/research/"/></url><url><loc>https://shota-ke.github.io/</loc><changefreq>daily</changefreq><priority>0.5</priority><xhtml:link rel="alternate" hreflang="ja" href="https://shota-ke.github.io/ja/"/><xhtml:link rel="alternate" hreflang="en" href="https://shota-ke.github.io/"/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>http://localhost:1313/notes/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/profile/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="http://localhost:1313/ja/profile/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/profile/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/research/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="http://localhost:1313/ja/research/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/research/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="http://localhost:1313/ja/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/"
+    />
+  </url>
+</urlset>

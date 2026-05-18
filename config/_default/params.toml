@@ -15,12 +15,14 @@ giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v11.next.forgejo.org"
 seo = { }
 firebase = { }
-fathomAnalytics = { }
 umamiAnalytics = { }
 selineAnalytics = { }
 verification = { }
 rssnext = { }
 advertisement = { }
+
+[fathomAnalytics]
+site = ""
 
 [buymeacoffee]
 globalWidgetColor = "#FFDD00"
