@@ -1,5 +1,5 @@
 +++
-date = 2026-05-20
+date = 2026-05-20T03:00:00+09:00
 draft = false
 title = "Publishing an Ansible Playbook for a Small Slurm Cluster"
 description = "A note on cleaning up and publishing an Ansible playbook for a small Slurm cluster, with Docker Compose validation and monitoring screenshots."
@@ -109,4 +109,3 @@ The repository also has a [security and publishing checklist](https://github.com
 - [Prometheus Node Exporter guide](https://prometheus.io/docs/guides/node-exporter/)
 - [Grafana provisioning documentation](https://grafana.com/docs/grafana/latest/administration/provisioning/)
 - [NVIDIA DCGM Exporter documentation](https://docs.nvidia.com/datacenter/dcgm/latest/gpu-telemetry/dcgm-exporter.html)
-
