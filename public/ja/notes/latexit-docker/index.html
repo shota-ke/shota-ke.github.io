@@ -5,7 +5,6 @@
   class="scroll-smooth"
   data-default-appearance="dark"
   data-auto-appearance="true"><head>
-	<meta name="generator" content="Hugo 0.161.1">
   <meta charset="utf-8">
   
     <meta http-equiv="content-language" content="ja">
@@ -16,8 +15,8 @@
 
   
   
-    <title>Shota Ikari</title>
-    <meta name="title" content="Shota Ikari">
+    <title>Using LaTeXiT with a Docker Environment &middot; Shota Ikari</title>
+    <meta name="title" content="Using LaTeXiT with a Docker Environment &middot; Shota Ikari">
   
 
   
@@ -32,31 +31,27 @@
     
   
   
-    <meta name="description" content="Shota Ikariのプロフィール、研究ノート、プロジェクト。">
+    <meta name="description" content="A short note on configuring LaTeXiT on macOS to call LaTeX tools through Docker wrapper scripts.">
+  
+  
+    <meta name="keywords" content="LaTeX,Docker,macOS,LaTeXiT,">
   
   
   
+  <link rel="canonical" href="https://shota-ke.github.io/ja/notes/latexit-docker/">
   
-  <link rel="canonical" href="https://shota-ke.github.io/ja/">
-  
+    
+      
+      
+        <link rel="alternate" hreflang="en" href="https://shota-ke.github.io/notes/latexit-docker/">
+      
     
       
       
-        <link rel="alternate" hreflang="en" href="https://shota-ke.github.io/">
-      
-    
-      
-      
-        <link rel="alternate" hreflang="ja" href="https://shota-ke.github.io/ja/">
+        <link rel="alternate" hreflang="ja" href="https://shota-ke.github.io/ja/notes/latexit-docker/">
       
     
   
-  
-    
-      <link rel="alternate" type="application/rss+xml" href="/ja/index.xml" title="Shota Ikari" />
-  
-    
-      <link rel="alternate" type="application/json" href="/ja/index.json" title="Shota Ikari" />
   
 
   
@@ -80,17 +75,24 @@
   
 
   
-  <meta property="og:url" content="https://shota-ke.github.io/ja/">
+  <meta property="og:url" content="https://shota-ke.github.io/ja/notes/latexit-docker/">
   <meta property="og:site_name" content="Shota Ikari">
-  <meta property="og:title" content="Shota Ikari">
-  <meta property="og:description" content="Shota Ikariのプロフィール、研究ノート、プロジェクト。">
+  <meta property="og:title" content="Using LaTeXiT with a Docker Environment">
+  <meta property="og:description" content="A short note on configuring LaTeXiT on macOS to call LaTeX tools through Docker wrapper scripts.">
   <meta property="og:locale" content="ja">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="notes">
+    <meta property="article:published_time" content="2026-05-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-05-19T00:00:00+00:00">
+    <meta property="article:tag" content="LaTeX">
+    <meta property="article:tag" content="Docker">
+    <meta property="article:tag" content="MacOS">
+    <meta property="article:tag" content="LaTeXiT">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Shota Ikari">
-  <meta name="twitter:description" content="Shota Ikariのプロフィール、研究ノート、プロジェクト。">
+  <meta name="twitter:title" content="Using LaTeXiT with a Docker Environment">
+  <meta name="twitter:description" content="A short note on configuring LaTeXiT on macOS to call LaTeX tools through Docker wrapper scripts.">
 
   
   
@@ -241,20 +243,30 @@
 
   
   <script type="application/ld+json">
-  {
+  [{
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "https://shota-ke.github.io/ja/",
-    "name": "Shota Ikari",
-    "description": "Shota Ikariのプロフィール、研究ノート、プロジェクト。",
+    "@type": "Article",
+    "articleSection": "Notes",
+    "name": "Using LaTeXiT with a Docker Environment",
+    "headline": "Using LaTeXiT with a Docker Environment",
+    "description": "A short note on configuring LaTeXiT on macOS to call LaTeX tools through Docker wrapper scripts.",
     "inLanguage": "ja",
-    "url": "https://shota-ke.github.io/ja/",
-    
-    "publisher" : {
+    "url" : "https://shota-ke.github.io/ja/notes/latexit-docker/",
+    "author" : {
       "@type": "Person",
       "name": "Shota Ikari"
-    }
-  }
+    },
+    "copyrightYear": "2026",
+    "dateCreated": "2026-05-19T00:00:00\u002b00:00",
+    "datePublished": "2026-05-19T00:00:00\u002b00:00",
+    
+    "dateModified": "2026-05-19T00:00:00\u002b00:00",
+    
+    "keywords": ["LaTeX","Docker","macOS","LaTeXiT"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "875"
+  }]
   </script>
 
 
@@ -394,19 +406,19 @@
         <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
     <path fill="currentColor" d="M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z"/></svg></span>
       </span>
-      <span class="text-sm font-medium bf-icon-color-hover" title="Shota Ikari">JA</span>
+      <span class="text-sm font-medium bf-icon-color-hover" title="Using LaTeXiT with a Docker Environment">JA</span>
     </button>
     <ul class="menuhide">
       <li class="rounded-xl backdrop-blur shadow-2xl p-2 flex flex-col gap-1">
         
-          <a href="/" class="flex items-center bf-icon-color-hover px-3 py-1">
-            <span class="text-sm font-sm" title="Shota Ikari">
+          <a href="/notes/latexit-docker/" class="flex items-center bf-icon-color-hover px-3 py-1">
+            <span class="text-sm font-sm" title="Using LaTeXiT with a Docker Environment">
               EN
             </span>
           </a>
         
-          <a href="/ja/" class="flex items-center bf-icon-color-hover px-3 py-1">
-            <span class="text-sm font-sm" title="Shota Ikari">
+          <a href="/ja/notes/latexit-docker/" class="flex items-center bf-icon-color-hover px-3 py-1">
+            <span class="text-sm font-sm" title="Using LaTeXiT with a Docker Environment">
               日本語
             </span>
           </a>
@@ -570,19 +582,19 @@
         <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
     <path fill="currentColor" d="M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z"/></svg></span>
       </span>
-      <span class="text-sm font-medium bf-icon-color-hover" title="Shota Ikari">JA</span>
+      <span class="text-sm font-medium bf-icon-color-hover" title="Using LaTeXiT with a Docker Environment">JA</span>
     </button>
     <ul class="menuhide">
       <li class="rounded-xl backdrop-blur shadow-2xl p-2 flex flex-col gap-1">
         
-          <a href="/" class="flex items-center bf-icon-color-hover px-3 py-1">
-            <span class="text-sm font-sm" title="Shota Ikari">
+          <a href="/notes/latexit-docker/" class="flex items-center bf-icon-color-hover px-3 py-1">
+            <span class="text-sm font-sm" title="Using LaTeXiT with a Docker Environment">
               EN
             </span>
           </a>
         
-          <a href="/ja/" class="flex items-center bf-icon-color-hover px-3 py-1">
-            <span class="text-sm font-sm" title="Shota Ikari">
+          <a href="/ja/notes/latexit-docker/" class="flex items-center bf-icon-color-hover px-3 py-1">
+            <span class="text-sm font-sm" title="Using LaTeXiT with a Docker Environment">
               日本語
             </span>
           </a>
@@ -621,24 +633,109 @@
       <main id="main-content" class="grow">
         
   
+  <article>
+    
+    
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Using LaTeXiT with a Docker Environment
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
   
     
-<article
-  class="
-    h-full
-   flex flex-col items-center justify-center text-center">
-  <header class="relative px-1 py-1 flex flex-col items-center mb-3">
+  
+
+  
+
+  
     
-    <h1 class="text-4xl font-extrabold">
-      Shota Ikari
-    </h1>
+  
+
+  
+
+  
     
-      <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
-        Master&rsquo;s student at the University of Tokyo.
-      </h2>
+  
+
+  
     
-    <div class="mt-1 text-2xl">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2026-05-19T00:00:00&#43;00:00">2026-05-19</time><span class="px-2 text-primary-500">&middot;</span><span>875 文字</span><span class="px-2 text-primary-500">&middot;</span><span title="読むのに必要な時間">5 分</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+
+
+      </div>
       
+        
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+    
+    
+<div class="flex author">
+  
+  <div class="place-self-center">
+    
+      <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+        著者
+      </div>
+      <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+        Shota Ikari
+      </div>
+    
+    
+      <div class="text-sm text-neutral-700 dark:text-neutral-400">Master&rsquo;s student at the University of Tokyo.</div>
+    
+    <div class="text-2xl sm:text-lg">
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500 space-x-2">
     
       
@@ -673,19 +770,259 @@
     
   </div>
 
+</div>
+  </div>
+</div>
 
-    </div>
-  </header>
-  <section class="prose dark:prose-invert w-full"></section>
-</article>
-<section>
+  
+
+  
+
+  
+    <div class="mb-5"></div>
+  
+
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          <p>LaTeXiT is a small macOS application that I find very convenient when I want to typeset a single equation and paste it into slides, notes, or figures.
+The annoying part is that LaTeXiT expects ordinary LaTeX-related commands such as <code>pdflatex</code>, <code>ps2pdf</code>, and <code>gs</code> to be available on the host machine.</p>
+<p>I wanted to keep my host environment light and use the same LaTeX environment that I already manage through Docker.
+This note describes the small wrapper-script setup I used to make LaTeXiT call LaTeX tools inside a Docker container.</p>
+
+<h2 class="relative group">Goal
+    <div id="goal" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#goal" aria-label="アンカー">#</a>
+    </span>
+    
+</h2>
+<p>The goal is simple:</p>
+<ul>
+<li>keep the TeX Live environment inside Docker,</li>
+<li>let LaTeXiT behave as if <code>pdflatex</code>, <code>ps2pdf</code>, and <code>gs</code> were installed locally,</li>
+<li>avoid root-owned output files,</li>
+<li>make temporary files created by LaTeXiT visible from inside the container.</li>
+</ul>
+<p>The key idea is to place wrapper scripts somewhere in my <code>PATH</code>, and then point LaTeXiT&rsquo;s program paths to those scripts.</p>
+
+<h2 class="relative group">Wrapper scripts
+    <div id="wrapper-scripts" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#wrapper-scripts" aria-label="アンカー">#</a>
+    </span>
+    
+</h2>
+<p>I created three scripts under my local <code>bin</code> directory:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">~/bin/pdflatex_docker.sh
+</span></span><span class="line"><span class="cl">~/bin/gs_docker.sh
+</span></span><span class="line"><span class="cl">~/bin/ps2pdf_docker.sh</span></span></code></pre></div></div>
+<p>Each script runs the corresponding command inside the same Docker image.
+In my setup, I adopted the image of <code>lualatex-template-tex-ubuntu:latest</code>.</p>
+<p>The <code>pdflatex</code> wrapper looks like this:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="nv">CWD</span><span class="o">=</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">CACHE_DIR</span><span class="o">=</span><span class="s2">&#34;/tmp/texmf-cache&#34;</span>
+</span></span><span class="line"><span class="cl">mkdir -p <span class="s2">&#34;</span><span class="nv">$CACHE_DIR</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">docker run --rm <span class="se">\
+</span></span></span><span class="line"><span class="cl">  --user <span class="k">$(</span>id -u<span class="k">)</span>:<span class="k">$(</span>id -g<span class="k">)</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -e <span class="nv">TEXMFVAR</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$CACHE_DIR</span><span class="s2">&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -v /tmp:/tmp <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -v /var/folders:/var/folders <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -v <span class="s2">&#34;</span><span class="nv">$CWD</span><span class="s2">&#34;</span>:<span class="s2">&#34;</span><span class="nv">$CWD</span><span class="s2">&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -w <span class="s2">&#34;</span><span class="nv">$CWD</span><span class="s2">&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  lualatex-template-tex-ubuntu:latest <span class="se">\
+</span></span></span><span class="line"><span class="cl">  pdflatex <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span></span></span></code></pre></div></div>
+<p>The Ghostscript wrapper is almost the same:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="nv">CWD</span><span class="o">=</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">docker run --rm <span class="se">\
+</span></span></span><span class="line"><span class="cl">  --user <span class="k">$(</span>id -u<span class="k">)</span>:<span class="k">$(</span>id -g<span class="k">)</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -v /tmp:/tmp <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -v /var/folders:/var/folders <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -v <span class="s2">&#34;</span><span class="nv">$CWD</span><span class="s2">&#34;</span>:<span class="s2">&#34;</span><span class="nv">$CWD</span><span class="s2">&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -w <span class="s2">&#34;</span><span class="nv">$CWD</span><span class="s2">&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  lualatex-template-tex-ubuntu:latest <span class="se">\
+</span></span></span><span class="line"><span class="cl">  gs <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span></span></span></code></pre></div></div>
+<p>And the <code>ps2pdf</code> wrapper is:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="nv">CWD</span><span class="o">=</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">docker run --rm <span class="se">\
+</span></span></span><span class="line"><span class="cl">  --user <span class="k">$(</span>id -u<span class="k">)</span>:<span class="k">$(</span>id -g<span class="k">)</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -v /tmp:/tmp <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -v /var/folders:/var/folders <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -v <span class="s2">&#34;</span><span class="nv">$CWD</span><span class="s2">&#34;</span>:<span class="s2">&#34;</span><span class="nv">$CWD</span><span class="s2">&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -w <span class="s2">&#34;</span><span class="nv">$CWD</span><span class="s2">&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl">  lualatex-template-tex-ubuntu:latest <span class="se">\
+</span></span></span><span class="line"><span class="cl">  ps2pdf <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span></span></span></code></pre></div></div>
+<p>After creating these files, I made them executable and ensured that <code>~/bin</code> was included in my shell <code>PATH</code>.</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">chmod +x ~/bin/pdflatex_docker.sh
+</span></span><span class="line"><span class="cl">chmod +x ~/bin/gs_docker.sh
+</span></span><span class="line"><span class="cl">chmod +x ~/bin/ps2pdf_docker.sh</span></span></code></pre></div></div>
+<p>For my shell environment, this means having something like the following in the shell configuration:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/bin:</span><span class="nv">$PATH</span><span class="s2">&#34;</span></span></span></code></pre></div></div>
+<p>Even so, I used absolute paths when configuring LaTeXiT itself,
+because GUI applications do not always inherit the same <code>PATH</code> as an interactive shell.</p>
+
+<h2 class="relative group">Why these options matter
+    <div id="why-these-options-matter" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#why-these-options-matter" aria-label="アンカー">#</a>
+    </span>
+    
+</h2>
+<p>There are a few details that turned out to be important.</p>
+<p>First, <code>--user $(id -u):$(id -g)</code> prevents Docker from creating root-owned output files.
+Without this, generated files can become annoying to clean up or overwrite from macOS.</p>
+<p>Second, the current working directory is mounted into the container:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">-v <span class="s2">&#34;</span><span class="nv">$CWD</span><span class="s2">&#34;</span>:<span class="s2">&#34;</span><span class="nv">$CWD</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">-w <span class="s2">&#34;</span><span class="nv">$CWD</span><span class="s2">&#34;</span></span></span></code></pre></div></div>
+<p>This makes relative paths behave naturally. LaTeXiT can create files in its temporary working directory, and the command inside Docker sees the same directory as its working directory.</p>
+<p>Third, I mounted both <code>/tmp</code> and <code>/var/folders</code>:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">-v /tmp:/tmp
+</span></span><span class="line"><span class="cl">-v /var/folders:/var/folders</span></span></code></pre></div></div>
+<p>On macOS, GUI applications often use temporary directories under <code>/var/folders</code>. If LaTeXiT asks <code>pdflatex</code> to compile a file in such a directory, the Docker container also needs to see it.
+Mounting <code>/var/folders</code> was the small but essential macOS-specific part of the setup.</p>
+<p>Finally, <code>pdflatex_docker.sh</code> sets <code>TEXMFVAR</code> to a writable cache directory under <code>/tmp</code>. This avoids cache-related permission issues inside the container.</p>
+
+<h2 class="relative group">LaTeXiT configuration
+    <div id="latexit-configuration" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#latexit-configuration" aria-label="アンカー">#</a>
+    </span>
+    
+</h2>
+<p>In LaTeXiT, I opened the preferences and replaced the command paths with the wrapper scripts:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">pdflatex  -&gt; /Users/ikarishota/bin/pdflatex_docker.sh
+</span></span><span class="line"><span class="cl">ps2pdf    -&gt; /Users/ikarishota/bin/ps2pdf_docker.sh
+</span></span><span class="line"><span class="cl">gs        -&gt; /Users/ikarishota/bin/gs_docker.sh</span></span></code></pre></div></div>
+
+<figure>
+        <img
+          class="my-0 rounded-md"
+          loading="lazy"
+          decoding="async"
+          fetchpriority="auto"
+          alt="LaTeXiT Typesetting preferences configured to use Docker wrapper scripts"
+          width="712"
+          height="649"
+          src="/notes/latexit-docker/configuration_hu_a4eff69801b698e4.png"
+          srcset="/notes/latexit-docker/configuration_hu_a4eff69801b698e4.png 800w,/notes/latexit-docker/configuration_hu_bcb7ad7048db9dd1.png 1280w"
+          sizes="(min-width: 768px) 50vw, 65vw"
+          data-zoom-src="/notes/latexit-docker/configuration.png"
+        />
+  
+  <figcaption>LaTeXiT configured to call Docker wrapper scripts for pdflatex, Ghostscript, and ps2pdf.</figcaption>
+  </figure>
+<p>The exact UI labels depend on the LaTeXiT version, but the important point is that LaTeXiT should call the wrapper scripts instead of host-installed binaries.</p>
+<p>I also enabled &ldquo;Use current user&rsquo;s login shell&rdquo; in LaTeXiT. In this setup, the program paths are absolute, so this is not the only thing making the wrappers discoverable, but it is still useful when the commands depend on shell-side environment variables.</p>
+<p>Once this is configured, LaTeXiT still feels like a native macOS app. The only difference is that the actual LaTeX toolchain runs inside Docker.</p>
+
+<h2 class="relative group">Result
+    <div id="result" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#result" aria-label="アンカー">#</a>
+    </span>
+    
+</h2>
+<p>As a quick check, I typeset a standard equation in LaTeXiT.
+From the application side, nothing special is visible: I write LaTeX source, press the typesetting button, and get the rendered equation back.</p>
+
+<figure>
+        <img
+          class="my-0 rounded-md"
+          loading="lazy"
+          decoding="async"
+          fetchpriority="auto"
+          alt="LaTeXiT rendering an equation while using a Dockerized LaTeX environment"
+          width="884"
+          height="933"
+          src="/notes/latexit-docker/example_hu_cf871d1526e45949.png"
+          srcset="/notes/latexit-docker/example_hu_cf871d1526e45949.png 800w,/notes/latexit-docker/example_hu_6af71bc045c27052.png 1280w"
+          sizes="(min-width: 768px) 50vw, 65vw"
+          data-zoom-src="/notes/latexit-docker/example.png"
+        />
+  
+  <figcaption>A LaTeXiT equation rendered through the Docker-backed LaTeX toolchain.</figcaption>
+  </figure>
+<p>This was the main thing I wanted from the setup. The Docker layer stays hidden behind the wrapper scripts, while LaTeXiT remains convenient for quick equation snippets.</p>
+
+<h2 class="relative group">A small trade-off
+    <div id="a-small-trade-off" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#a-small-trade-off" aria-label="アンカー">#</a>
+    </span>
+    
+</h2>
+<p>This setup is not the fastest possible one, because each LaTeXiT compilation starts a short-lived Docker container. For my use case, that overhead is acceptable: I usually typeset small equations, and I prefer reproducibility and a clean host environment over shaving off a little startup time.</p>
+<p>If the startup cost becomes irritating, a natural next step would be to keep a long-running container alive and execute commands inside it. For now, the stateless <code>docker run --rm</code> approach is simple enough that I like it.</p>
+
+<h2 class="relative group">Conclusion
+    <div id="conclusion" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#conclusion" aria-label="アンカー">#</a>
+    </span>
+    
+</h2>
+<p>The useful pattern here is not specific to LaTeXiT.
+When a macOS application expects a command-line tool, a thin wrapper script can often bridge it to a Dockerized environment.
+In this case, three wrapper scripts were enough to make LaTeXiT use a Docker-managed LaTeX installation while keeping the host machine relatively clean.</p>
+<p>If you also want to keep your local LaTeX installation minimal, this setup may be worth trying.</p>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+
+        
+
+      </div>
+    </section>
+
+    
+    <footer class="pt-8 max-w-prose print:hidden">
+      
   
 
 
-
-</section>
-
-  
+      
+    </footer>
+  </article>
 
         
 

@@ -7,6 +7,16 @@
     <lastmod>2026-05-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="https://shota-ke.github.io/ja/notes/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://shota-ke.github.io/notes/"
+    />
   </url>
   <url>
     <loc>https://shota-ke.github.io/</loc>
@@ -29,6 +39,16 @@
     <lastmod>2026-05-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="https://shota-ke.github.io/ja/notes/latexit-docker/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://shota-ke.github.io/notes/latexit-docker/"
+    />
   </url>
   <url>
     <loc>https://shota-ke.github.io/profile/</loc>

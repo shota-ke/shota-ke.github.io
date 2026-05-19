@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     
-    <atom:link href="https://shota-ke.github.io/ja/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://shota-ke.github.io/ja/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker</title>
+      <link>https://shota-ke.github.io/ja/tags/docker/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://shota-ke.github.io/ja/tags/docker/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LaTeX</title>
+      <link>https://shota-ke.github.io/ja/tags/latex/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://shota-ke.github.io/ja/tags/latex/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LaTeXiT</title>
+      <link>https://shota-ke.github.io/ja/tags/latexit/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://shota-ke.github.io/ja/tags/latexit/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>MacOS</title>
+      <link>https://shota-ke.github.io/ja/tags/macos/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://shota-ke.github.io/ja/tags/macos/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>
