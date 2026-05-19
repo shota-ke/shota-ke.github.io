@@ -1,0 +1,5 @@
+# Hugo build output. GitHub Actions builds and deploys this directory.
+public/
+
+# Local Hugo build lock.
+.hugo_build.lock
