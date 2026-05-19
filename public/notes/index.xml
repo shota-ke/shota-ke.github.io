@@ -9,7 +9,17 @@
     <managingEditor>shota-ikari@g.ecc.u-tokyo.ac.jp (Shota Ikari)</managingEditor>
     <webMaster>shota-ikari@g.ecc.u-tokyo.ac.jp (Shota Ikari)</webMaster>
     
-    <atom:link href="https://shota-ke.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://shota-ke.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using LaTeXiT with a Docker Environment</title>
+      <link>https://shota-ke.github.io/notes/latexit-docker/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <author>shota-ikari@g.ecc.u-tokyo.ac.jp (Shota Ikari)</author>
+      <guid>https://shota-ke.github.io/notes/latexit-docker/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

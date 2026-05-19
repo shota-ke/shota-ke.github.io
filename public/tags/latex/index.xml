@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LaTeX on Shota Ikari</title>
+    <link>https://shota-ke.github.io/tags/latex/</link>
+    <description>Recent content in LaTeX on Shota Ikari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>shota-ikari@g.ecc.u-tokyo.ac.jp (Shota Ikari)</managingEditor>
+    <webMaster>shota-ikari@g.ecc.u-tokyo.ac.jp (Shota Ikari)</webMaster>
+    
+    <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://shota-ke.github.io/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using LaTeXiT with a Docker Environment</title>
+      <link>https://shota-ke.github.io/notes/latexit-docker/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <author>shota-ikari@g.ecc.u-tokyo.ac.jp (Shota Ikari)</author>
+      <guid>https://shota-ke.github.io/notes/latexit-docker/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

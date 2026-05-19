@@ -4,6 +4,29 @@
 
   <url>
     <loc>https://shota-ke.github.io/notes/</loc>
+    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://shota-ke.github.io/</loc>
+    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="https://shota-ke.github.io/ja/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://shota-ke.github.io/"
+    />
+  </url>
+  <url>
+    <loc>https://shota-ke.github.io/notes/latexit-docker/</loc>
+    <lastmod>2026-05-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -35,21 +58,6 @@
       rel="alternate"
       hreflang="en"
       href="https://shota-ke.github.io/research/"
-    />
-  </url>
-  <url>
-    <loc>https://shota-ke.github.io/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="https://shota-ke.github.io/ja/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://shota-ke.github.io/"
     />
   </url>
 </urlset>

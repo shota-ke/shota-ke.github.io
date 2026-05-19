@@ -7,3 +7,8 @@
   name = "研究"
   pageRef = "Research"
   weight = 20
+
+[[main]]
+  name = "ノート"
+  pageRef = "Notes"
+  weight = 30
