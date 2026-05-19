@@ -1,19 +1,19 @@
 +++
 date = 2026-05-20T03:00:00+09:00
 draft = false
-title = "Publishing an Ansible Playbook for a Small Slurm Cluster"
-description = "A note on cleaning up and publishing an Ansible playbook for a small Slurm cluster, with Docker Compose validation and monitoring screenshots."
+title = "Notes on a Small Slurm Cluster with Ansible"
+description = "A casual note on cleaning up a small Slurm cluster Ansible setup, with Docker Compose validation and monitoring screenshots."
 tags = ["Slurm", "Ansible", "Docker", "Prometheus", "Grafana", "HPC"]
 categories = ["Notes"]
 +++
 
-I cleaned up and published an Ansible playbook for provisioning a small Ubuntu-based Slurm cluster.
+I cleaned up an Ansible playbook for provisioning a small Ubuntu-based Slurm cluster and put the sanitized version on GitHub.
 
 Repository:
 
 - [shota-ke/slurm_ansible](https://github.com/shota-ke/slurm_ansible)
 
-The playbook started as infrastructure code for a local lab environment. Before publishing it, I removed site-specific inventories, host variables, generated hardware facts, SSH keys, Munge keys, local environment files, and old reference material. The public repository now keeps those files out of Git and includes a Docker Compose environment for validating the roles safely.
+The playbook started as infrastructure code for a local lab environment. Before making it public, I removed site-specific inventories, host variables, generated hardware facts, SSH keys, Munge keys, local environment files, and old reference material. The repository now keeps those files out of Git and includes a Docker Compose environment for validating the roles safely.
 
 ## Scope
 
@@ -79,9 +79,9 @@ Grafana is provisioned with dashboards for the Slurm cluster and node metrics.
 
 Keeping the Grafana provisioning files and dashboard JSON in Git makes the monitoring layer easier to reproduce after rebuilding the environment.
 
-## Publishing checklist
+## Cleanup checklist
 
-The highest-risk part of publishing an Ansible repository is usually not the playbook itself, but the surrounding local state. I checked for:
+The highest-risk part of sharing an Ansible repository is usually not the playbook itself, but the surrounding local state. I checked for:
 
 - SSH private keys,
 - copied public keys from real hosts,
