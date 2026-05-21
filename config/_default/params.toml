@@ -40,12 +40,12 @@ showScrollToTop = true
 
 [homepage]
 layout = "profile"
-showRecent = true
-showRecentItems = 4
-showMoreLink = true
-showMoreLinkDest = "/notes/"
-cardView = true
-cardViewScreenWidth = true
+showRecent = false
+showRecentItems = 5
+showMoreLink = false
+showMoreLinkDest = "/posts/"
+cardView = false
+cardViewScreenWidth = false
 layoutBackgroundBlur = false
 disableHeroImageFilter = false
 
