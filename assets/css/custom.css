@@ -1,0 +1,11 @@
+main#main-content article:has(#background-image) > div.relative > div > div > div.relative.flex.flex-col.items-center.justify-center {
+  min-height: calc(100vh - 148px);
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 640px) {
+  main#main-content article:has(#background-image) > div.relative > div > div > div.relative.flex.flex-col.items-center.justify-center {
+    min-height: calc(100vh - 112px);
+  }
+}

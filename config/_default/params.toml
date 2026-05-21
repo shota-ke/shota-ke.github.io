@@ -11,6 +11,8 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 hotlinkFeatureImage = false
 fingerprintAlgorithm = "sha512"
+defaultBackgroundImage = "img/home-autumn.jpeg"
+imagePosition = "center 16%"
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v11.next.forgejo.org"
 seo = { }
@@ -39,7 +41,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
+layout = "background"
 showRecent = false
 showRecentItems = 5
 showMoreLink = false

@@ -1,6 +1,6 @@
 ---
 title: "Notes"
 description: "研究環境、インフラ、道具づくりについての短いノート。"
+cardView: false
+cardViewScreenWidth: false
 ---
-
-研究環境やインフラ、論文執筆まわりの道具づくりについての短いノートを置いています。
