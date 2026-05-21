@@ -40,12 +40,12 @@ showScrollToTop = true
 
 [homepage]
 layout = "profile"
-showRecent = false
-showRecentItems = 5
-showMoreLink = false
-showMoreLinkDest = "/posts/"
-cardView = false
-cardViewScreenWidth = false
+showRecent = true
+showRecentItems = 4
+showMoreLink = true
+showMoreLinkDest = "/notes/"
+cardView = true
+cardViewScreenWidth = true
 layoutBackgroundBlur = false
 disableHeroImageFilter = false
 
@@ -68,7 +68,7 @@ showHeadingAnchors = true
 showPagination = true
 invertPagination = false
 showReadingTime = true
-showTableOfContents = false
+showTableOfContents = true
 showTaxonomies = false
 showCategories = true
 showTags = true
@@ -82,15 +82,15 @@ showHero = false
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
-showSummary = false
+showSummary = true
 showViews = false
 showLikes = false
 showTableOfContents = false
-showCards = false
+showCards = true
 orderByWeight = false
 groupByYear = true
-cardView = false
-cardViewScreenWidth = false
+cardView = true
+cardViewScreenWidth = true
 constrainItemsWidth = false
 
 [sitemap]

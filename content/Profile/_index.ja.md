@@ -1,7 +1,7 @@
 ---
 layout: "simple"
 title: "プロフィール"
-description: "Shota Ikariのプロフィールと経歴。"
+description: "猪狩 翔太のプロフィールと経歴。"
 showDate: false
 showReadingTime: false
 ---

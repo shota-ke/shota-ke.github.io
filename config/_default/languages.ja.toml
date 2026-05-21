@@ -2,14 +2,14 @@ disabled = false
 locale = "ja"
 label = "日本語"
 weight = 2
-title = "Shota Ikari"
+title = "Ikari Shota"
 
 [params]
 displayName = "日本語"
 isoCode = "ja"
 rtl = false
 dateFormat = "2006-01-02"
-description = "Shota Ikariのプロフィール、研究ノート、プロジェクト。"
+description = "猪狩 翔太のプロフィール、研究ノート、プロジェクト。"
 
 [[params.author.links]]
 github = "https://github.com/shota-ke"
@@ -18,6 +18,6 @@ github = "https://github.com/shota-ke"
 linkedin = "https://www.linkedin.com/in/shota-ikari-237168268/"
 
 [params.author]
-name = "Shota Ikari"
+name = "Ikari Shota"
 headline = "Master's student at the University of Tokyo."
 bio = "Master's student at the University of Tokyo."
