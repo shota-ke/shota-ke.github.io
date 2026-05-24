@@ -13,6 +13,7 @@ hotlinkFeatureImage = false
 fingerprintAlgorithm = "sha512"
 defaultBackgroundImage = "img/home-autumn.jpeg"
 logo = "img/site-logo-dark.png"
+secondaryLogo = "img/site-logo-light.png"
 imagePosition = "center 16%"
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v11.next.forgejo.org"
