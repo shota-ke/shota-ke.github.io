@@ -9,8 +9,10 @@ categories = ["Notes"]
 
 {{< katex >}}
 
-AMD の [Kria KV260](https://www.amd.com/en/products/system-on-modules/kria/k26/kv260-vision-starter-kit.html) を使った FPGA AI デザインハッカソンで、YOLOv5n を FPGA 上で動かし、速度と精度の両立を目指しました。
-この記事はその参加記録となります．
+以前，[Agile X FPGA hackathon](https://www.agile-x.t.u-tokyo.ac.jp/project/FPGAAIhackathon/)に参加しました．これは
+AMD の [Kria KV260](https://www.amd.com/en/products/system-on-modules/kria/k26/kv260-vision-starter-kit.html) を使った FPGA AI デザインハッカソンで、YOLOv5n を FPGA 上で動かし、速度と精度の両立を目指すというものでした．
+このハッカソンを通して非常に多くの学びを得ることができました．
+そこでこの記事はその参加記録となります．
 
 本競技のスコアは次式で定義されていました。
 
