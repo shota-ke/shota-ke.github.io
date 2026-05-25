@@ -1,6 +1,6 @@
 ---
 title: "Notes"
-description: "Short notes on research tools, infrastructure, and small experiments."
+description: "I'll write random notes here."
 cardView: false
 cardViewScreenWidth: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Notes"
-description: "研究環境、インフラ、道具づくりについての短いノート。"
+description: "気ままに更新します．"
 cardView: false
 cardViewScreenWidth: false
 ---
