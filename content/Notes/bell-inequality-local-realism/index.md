@@ -109,9 +109,9 @@ The point is that quantum mechanics predicts correlations that cannot be reprodu
 When people say that "local realism is violated," it can sound as if quantum mechanics has simply proved that nature is nonlocal, or that particles communicate faster than light.
 That is too quick.
 
-In the CHSH setting, what is ruled out is a picture like this:
-
-> Before the measurements happen, the pair already carries enough local information to determine what Alice would answer for `A0`, what Alice would answer for `A1`, what Bob would answer for `B0`, and what Bob would answer for `B1`. Alice's answers do not depend on Bob's later choice, and Bob's answers do not depend on Alice's later choice.
+In the CHSH setting, what is ruled out is a picture where the pair already carries a complete local instruction sheet before the measurements happen.
+That instruction sheet would have to determine what Alice would answer for `A0` and `A1`, and what Bob would answer for `B0` and `B1`.
+Alice's answers would not depend on Bob's later choice, and Bob's answers would not depend on Alice's later choice.
 
 Quantum correlations do not fit into that picture.
 
@@ -131,11 +131,8 @@ Alice cannot choose her outcome.
 Bob's local statistics do not reveal Alice's measurement choice by themselves.
 The violation appears only when Alice and Bob later compare their data and estimate the correlations.
 
-For me, the most useful statement is:
-
-> Entanglement can produce correlations that are stronger than anything obtainable from shared classical randomness and local response functions.
-
-That sentence is less dramatic than "reality is broken," but it is much clearer.
+For me, the most useful statement is that entanglement can produce correlations stronger than anything obtainable from shared classical randomness and local response functions.
+That is less dramatic than "reality is broken," but it is much clearer.
 
 ## Ways to Read the Result
 
