@@ -66,9 +66,9 @@ That is already an interpretational choice.
 
 The cleanest example is the CHSH inequality.
 Imagine that Alice and Bob each receive one part of a shared physical system.
-Alice can choose one of two measurements, $A_0$ or $A_1$.
-Bob can choose one of two measurements, $B_0$ or $B_1$.
-Each measurement returns either $+1$ or $-1$.
+Alice can choose one of two measurements, `A0` or `A1`.
+Bob can choose one of two measurements, `B0` or `B1`.
+Each measurement returns either `+1` or `-1`.
 
 The CHSH expression is
 
@@ -80,7 +80,7 @@ E(A_1B_0) -
 E(A_1B_1),
 $$
 
-where $E(A_iB_j)$ is the average product of Alice's and Bob's outcomes when those measurement settings are chosen.
+where `E(AiBj)` is the average product of Alice's and Bob's outcomes when those measurement settings are chosen.
 
 If the outcomes are explained by a local hidden-variable model, then
 
@@ -101,7 +101,7 @@ $$
 
 and suitable entangled states and measurement bases can reach this larger value.
 
-The point is not just that $2\sqrt{2}$ is larger than $2$.
+The point is not just that `2 sqrt(2)` is larger than `2`.
 The point is that quantum mechanics predicts correlations that cannot be reproduced by pre-existing local instructions.
 
 ## What Is Actually Violated?
@@ -142,7 +142,7 @@ The following are not exhaustive, but they show why I do not think Bell experime
 ### Give Up Realism About Pre-Existing Values
 
 One response is to reject the idea that all possible measurement outcomes were already fixed before measurement.
-In this view, it is not meaningful to say that Alice's particle had definite answers for both $A_0$ and $A_1$ before Alice chose which measurement to perform.
+In this view, it is not meaningful to say that Alice's particle had definite answers for both `A0` and `A1` before Alice chose which measurement to perform.
 
 This is close in spirit to many textbook or Copenhagen-like presentations.
 The quantum state is not treated as a list of hidden pre-existing values.
