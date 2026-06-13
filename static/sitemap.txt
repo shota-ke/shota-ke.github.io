@@ -1,0 +1,13 @@
+https://shota-ke.github.io/
+https://shota-ke.github.io/notes/
+https://shota-ke.github.io/notes/bell-inequality-local-realism/
+https://shota-ke.github.io/notes/lab-local-llm/
+https://shota-ke.github.io/notes/slurm-ansible-playbook/
+https://shota-ke.github.io/notes/latexit-docker/
+https://shota-ke.github.io/profile/
+https://shota-ke.github.io/research/
+https://shota-ke.github.io/ja/
+https://shota-ke.github.io/ja/notes/
+https://shota-ke.github.io/ja/notes/fpga-hackathon-kv260-yolov5/
+https://shota-ke.github.io/ja/profile/
+https://shota-ke.github.io/ja/research/

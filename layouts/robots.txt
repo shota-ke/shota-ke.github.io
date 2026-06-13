@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://shota-ke.github.io/sitemap.xml
+Sitemap: https://shota-ke.github.io/sitemap.txt
