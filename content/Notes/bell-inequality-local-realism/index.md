@@ -1,7 +1,7 @@
 ---
 title: "Bell Inequality, Local Realism, and What We Can Build"
 date: 2026-06-13
-draft: true
+draft: false
 tags: ["Quantum Information", "Bell Inequality", "Local Realism", "Entanglement"]
 categories: ["Notes"]
 description: "A short note on Bell's inequality, local realism, interpretation, and why I see it as a starting point for quantum information engineering."
