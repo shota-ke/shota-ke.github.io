@@ -88,25 +88,7 @@ Ansible is valuable not only for its idempotent infrastructure management, but a
 
 {{< figure src="grafana_lab.png" alt="Grafana dashboard showing node status, CPU, memory, GPU utilization, GPU memory, temperature, and power usage in the lab cluster" caption="Grafana dashboard from the lab Slurm cluster." >}}
 
-
-
-## Cleanup checklist
-
-The highest-risk part of sharing an Ansible repository is usually not the playbook itself, but the surrounding local state. I checked for:
-
-- SSH private keys,
-- copied public keys from real hosts,
-- `known_hosts`,
-- Munge keys,
-- real host variables and IP addresses,
-- `.env` files,
-- internal URLs embedded in dashboards,
-- old reference files.
-
-The repository also has a [security and publishing checklist](https://github.com/shota-ke/slurm_ansible/blob/main/docs/security.md).
-
 ## References
-
 - [Repository: shota-ke/slurm_ansible](https://github.com/shota-ke/slurm_ansible)
 - [Ansible documentation](https://docs.ansible.com/ansible/latest/)
 - [Ansible playbooks](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_intro.html)
