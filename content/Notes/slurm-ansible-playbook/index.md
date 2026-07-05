@@ -79,6 +79,17 @@ Grafana is provisioned with dashboards for the Slurm cluster and node metrics.
 
 Keeping the Grafana provisioning files and dashboard JSON in Git makes the monitoring layer easier to reproduce after rebuilding the environment.
 
+## Lab deployment example
+
+In our lab, the same setup is used to keep an eye on the actual Slurm nodes and GPU resources.
+Ansible is valuable not only for its idempotent infrastructure management, but also as a practical tool for everyday system administration.
+
+{{< figure src="sres_lab.png" alt="sres terminal output showing CPU, memory, GPU availability, and Slurm node states in the lab cluster" caption="Actual lab cluster resource summary shown by sres." >}}
+
+{{< figure src="grafana_lab.png" alt="Grafana dashboard showing node status, CPU, memory, GPU utilization, GPU memory, temperature, and power usage in the lab cluster" caption="Grafana dashboard from the lab Slurm cluster." >}}
+
+
+
 ## Cleanup checklist
 
 The highest-risk part of sharing an Ansible repository is usually not the playbook itself, but the surrounding local state. I checked for:
