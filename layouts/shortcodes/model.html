@@ -1,0 +1,68 @@
+{{- /*
+  model shortcode -- embeds an interactive glTF/GLB viewer via <model-viewer>.
+
+  Params:
+    src     (required) glTF/GLB file, resolved as a page resource or from assets/
+    alt     accessible description
+    caption figcaption text (markdown)
+    poster  image shown before the model loads (page resource)
+    height  CSS height of the viewer, default 460px
+    autorotate  "false" to disable the idle turntable
+*/ -}}
+
+{{- $srcRaw := .Get "src" -}}
+{{- if not $srcRaw -}}
+  {{- errorf "model shortcode: src is required: %s" .Position -}}
+{{- end -}}
+
+{{- $src := "" -}}
+{{- with $.Page.Resources.GetMatch $srcRaw -}}
+  {{- $src = .RelPermalink -}}
+{{- else -}}
+  {{- with resources.Get $srcRaw -}}
+    {{- $src = .RelPermalink -}}
+  {{- else -}}
+    {{- if fileExists (path.Join "static" $srcRaw) -}}
+      {{- $src = relURL $srcRaw -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $src -}}
+  {{- errorf "model shortcode: unable to resolve src %q: %s" $srcRaw .Position -}}
+{{- end -}}
+
+{{- $poster := "" -}}
+{{- with .Get "poster" -}}
+  {{- with $.Page.Resources.GetMatch . -}}
+    {{- $poster = .RelPermalink -}}
+  {{- else -}}
+    {{- warnf "model shortcode: unable to resolve poster %q: %s" . $.Position -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $alt := .Get "alt" | default "Interactive 3D model" -}}
+{{- $height := .Get "height" | default "460px" -}}
+{{- $autorotate := true -}}
+{{- with .Get "autorotate" -}}
+  {{- $autorotate = not (in (slice "false" "0" "no" "off") (lower .)) -}}
+{{- end -}}
+{{- $caption := .Get "caption" -}}
+
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js"></script>
+
+<figure>
+  <model-viewer
+    src="{{ $src }}"
+    alt="{{ $alt }}"
+    {{- with $poster }} poster="{{ . }}"{{ end }}
+    camera-controls
+    touch-action="pan-y"
+    {{ if $autorotate }}auto-rotate{{ end }}
+    shadow-intensity="1"
+    exposure="1.1"
+    loading="lazy"
+    class="w-full rounded-md bg-neutral-100 dark:bg-neutral-800"
+    style="height: {{ $height }};">
+  </model-viewer>
+  {{- with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
