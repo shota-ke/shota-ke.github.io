@@ -6,6 +6,10 @@ showDate: false
 showReadingTime: false
 ---
 
+{{< alert "file-lines" >}}
+最新のCVは[**こちら**](https://github.com/shota-ke/cv/blob/main/out/main.pdf)からご覧いただけます。
+{{< /alert >}}
+
 ## 所属
 
 東京大学大学院 情報理工学系研究科 システム情報学専攻 [中村・高瀬研究室](https://hal.ipc.i.u-tokyo.ac.jp/ja/) 修士課程 2年

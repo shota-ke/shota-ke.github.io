@@ -6,6 +6,10 @@ showDate: false
 showReadingTime: false
 ---
 
+{{< alert "file-lines" >}}
+My recent CV is available [**here**](https://github.com/shota-ke/cv/blob/main/out/main.pdf).
+{{< /alert >}}
+
 ## Affiliation
 
 Master's student, Department of Information Physics and Computing, Graduate School of Information Science and Technology, The University of Tokyo.  
