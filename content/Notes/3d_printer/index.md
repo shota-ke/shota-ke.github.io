@@ -13,8 +13,7 @@ His name comes from **I**nformation **S**cience and **T**echnolog**y**, and he i
 ![The Isty mascot character: a yellow egg-shaped robot with an antenna](Isty.png "Isty, the mascot of the Graduate School of Information Science and Technology.")
 {style="max-width: 300px; margin-inline: auto;"}
 
-I liked him so much that I decided to recreate him in Blender and bring him into the real world with a 3D printer.
-This was a purely personal project, made just for fun.
+I liked him so much that I decided to model him in Blender and 3D print him, just for fun.
 
 ## Modeling in Blender
 
@@ -48,8 +47,5 @@ The X2D has a built-in camera, so the print recorded itself.
 
 {{< video src="isty.mp4" ratio="16/9" controls="true" muted="true" loop="true" caption="Timelapse from the printer's built-in camera. The prime tower grows alongside the model." >}}
 
-## Closing thoughts
-
-I am really happy that he now exists in the physical world.\
-What surprised me most was how little friction there was along the way: designing a personal object and actually holding it in my hand turned out to be easy from end to end. \
-3D printers are not that expensive anymore, so I am starting to think that I want one of my own someday.
+I am really happy to have a printed Isty. I expected more trouble with the supports, but Bambu Studio handled them automatically.\
+I might get a 3D printer of my own someday.

@@ -2,7 +2,7 @@
 date = 2026-05-20T03:00:00+09:00
 draft = false
 title = "Notes on a Small Slurm Cluster with Ansible"
-description = "A casual note on cleaning up a small Slurm cluster Ansible setup, with Docker Compose validation and monitoring screenshots."
+description = "An Ansible setup for our lab's Slurm cluster, with a Docker Compose test environment and Prometheus/Grafana monitoring."
 tags = ["Slurm", "Ansible", "Docker", "Prometheus", "Grafana", "HPC"]
 categories = ["Notes"]
 +++
@@ -28,7 +28,7 @@ The repository provisions:
 - Node Exporter,
 - optional DCGM Exporter for GPU telemetry.
 
-The useful part is that the same Ansible structure can be tested locally before touching real machines.
+The Docker Compose environment lets me test the same roles before deploying them to the lab machines.
 
 ## Docker validation
 
@@ -82,7 +82,6 @@ Keeping the Grafana provisioning files and dashboard JSON in Git makes the monit
 ## Lab deployment example
 
 In our lab, the same setup is used to keep an eye on the actual Slurm nodes and GPU resources.
-Ansible is valuable not only for its idempotent infrastructure management, but also as a practical tool for everyday system administration.
 
 {{< figure src="sres_lab.png" alt="sres terminal output showing CPU, memory, GPU availability, and Slurm node states in the lab cluster" caption="Actual lab cluster resource summary shown by sres." >}}
 
