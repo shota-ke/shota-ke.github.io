@@ -1,0 +1,17 @@
+{{- $mode := .Get "mode" | default "3d" -}}
+{{- if not (in (slice "2d" "3d") $mode) -}}
+  {{- errorf "fluid shortcode: mode must be 2d or 3d (%s)" .Position -}}
+{{- end -}}
+{{/* Hugo treats bundled HTML as page content, so publish the demo explicitly. */}}
+{{- $html := readFile (printf "content/%sdemo/index.html" .Page.File.Dir) -}}
+{{- $demo := resources.FromString (printf "%sdemo/index.html" (strings.TrimPrefix "/" .Page.RelPermalink)) $html -}}
+{{- $src := printf "%s?mode=%s" $demo.RelPermalink $mode -}}
+<iframe
+  src="{{ $src }}"
+  title="{{ upper $mode }} fluid simulation in Rust"
+  width="720"
+  height="720"
+  loading="lazy"
+  style="display: block; width: 100%; max-width: 720px; height: auto; aspect-ratio: 1; margin-inline: auto; border: 0; border-radius: 8px;">
+</iframe>
+<p><a href="{{ $src }}" target="_blank" rel="noopener">Open the {{ upper $mode }} simulation in its own tab</a></p>

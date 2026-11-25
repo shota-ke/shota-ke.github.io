@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fluid Simulation in Rust · Shota Ikari</title>
+    <style>
+      html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #18181b; color: #fafafa; font-family: system-ui, sans-serif; }
+      #glcanvas { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; }
+      #glcanvas:focus-visible { outline: 2px solid #a78bfa; outline-offset: -2px; }
+      #start-screen { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; padding: 20px; background: #18181b; }
+      #start-screen[hidden] { display: none; }
+      button { padding: 12px 24px; border: 0; border-radius: 6px; background: #a78bfa; color: #18181b; font: inherit; cursor: pointer; }
+      button:focus-visible { outline: 2px solid #fafafa; outline-offset: 4px; }
+      button:disabled { cursor: wait; }
+      p { max-width: 36ch; line-height: 1.6; }
+      #controls { white-space: pre-line; }
+    </style>
+    <script src="fluid.js" defer></script>
+  </head>
+  <body>
+    <canvas id="glcanvas" width="720" height="720" tabindex="0" hidden aria-label="Interactive fluid simulation">
+      Your browser needs canvas, WebGL, and WebAssembly support to run this simulation.
+    </canvas>
+    <div id="start-screen">
+      <button id="play" type="button">Start simulation</button>
+      <p id="controls"></p>
+      <p id="status" role="status">A mouse and keyboard are recommended.</p>
+      <noscript><p>Enable JavaScript to run the simulation.</p></noscript>
+    </div>
+  </body>
+</html>

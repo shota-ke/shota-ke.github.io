@@ -1,0 +1,16 @@
+[package]
+name = "fluid"
+version = "0.1.0"
+edition = "2024"
+default-run = "fluid"
+
+[dependencies]
+macroquad = "=0.4.16"
+
+[[bin]]
+name = "fluid"
+path = "fluid_3d.rs"
+
+[[bin]]
+name = "fluid-2d"
+path = "fluid_2d.rs"
