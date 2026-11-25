@@ -1,6 +1,5 @@
 https://shota-ke.github.io/
 https://shota-ke.github.io/notes/
-https://shota-ke.github.io/notes/bell-inequality-local-realism/
 https://shota-ke.github.io/notes/lab-local-llm/
 https://shota-ke.github.io/notes/slurm-ansible-playbook/
 https://shota-ke.github.io/notes/latexit-docker/
