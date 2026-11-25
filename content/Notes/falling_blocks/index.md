@@ -12,5 +12,3 @@ This version is compiled to WebAssembly so you can play it in your browser.\
 I was impressed by how little I needed to change to get the same Rust game running on a web page.
 
 {{< falling_blocks >}}
-
-[Open the game on its own](/games/falling_blocks/).

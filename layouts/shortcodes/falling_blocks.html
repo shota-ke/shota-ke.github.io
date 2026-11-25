@@ -1,8 +1,11 @@
+{{- $html := readFile (printf "content/%sdemo/index.html" .Page.File.Dir) -}}
+{{- $demo := resources.FromString (printf "%sdemo/index.html" (strings.TrimPrefix "/" .Page.RelPermalink)) $html -}}
 <iframe
-  src="{{ "/games/falling_blocks/" | relURL }}"
+  src="{{ $demo.RelPermalink }}"
   title="Simple Games in Rust: falling-block puzzle"
   width="548"
   height="656"
   loading="lazy"
   style="display: block; width: 100%; max-width: 548px; height: auto; aspect-ratio: 548 / 656; margin-inline: auto; border: 0; border-radius: 8px;">
 </iframe>
+<p><a href="{{ $demo.RelPermalink }}">Open the game on its own</a>.</p>

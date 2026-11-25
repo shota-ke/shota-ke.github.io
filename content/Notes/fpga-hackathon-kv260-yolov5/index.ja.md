@@ -19,7 +19,7 @@ $$
 \mathrm{score} = \mathrm{mAP} \times \mathrm{FPS}
 $$
 
-{{< figure src="/ja/notes/fpga-hackathon-kv260-yolov5/slide-6.png" alt="ハッカソンにおける我々の戦略" caption="ハッカソンの全体像と我々の戦略" >}}
+{{< figure src="slide-6.ja.png" alt="ハッカソンにおける我々の戦略" caption="ハッカソンの全体像と我々の戦略" >}}
 
 ## Hackathonのベースラインに関して
 
@@ -39,7 +39,7 @@ mAP が下がっても，FPS の向上によってスコアは大きく伸びま
 
 YOLOv5n は CNN ベースで比較的扱いやすく、パラメータ数も少ないモデルです。資料では YOLOv3-tiny の約 4 分の 1 規模とされていて、まず動かして高速化する対象として適していました。さらに Ultralytics の実装が使えるため、ハッカソンの短い期間でも再学習と検証を実施しやすい構成でした。
 
-{{< figure src="/ja/notes/fpga-hackathon-kv260-yolov5/slide-11.png" alt="再学習した YOLOv5n とその比較" caption="再学習した YOLOv5n と比較結果。データセットの改善と量子化・枝刈りの影響をまとめて確認しました。" >}}
+{{< figure src="slide-11.ja.png" alt="再学習した YOLOv5n とその比較" caption="再学習した YOLOv5n と比較結果。データセットの改善と量子化・枝刈りの影響をまとめて確認しました。" >}}
 
 モデル作成の流れは、おおむね次の通りでした。
 1. Ultralytics ベースで YOLOv5n を再学習する。
@@ -61,7 +61,7 @@ YOLOv5n は CNN ベースで比較的扱いやすく、パラメータ数も少�
 
 KV260 上では `B1024 x 2` と `B4096 x 1` を比較し，最終的に **B4096 を 1 基** 使う構成を採用しました．
 
-{{< figure src="/ja/notes/fpga-hackathon-kv260-yolov5/slide-12.png" alt="DPU の最適化を比較したスライド" caption="DPU の最適化。B1024 を 2 枚使う場合と B4096 を 1 枚使う場合を比較し、後者を採用しました。" >}}
+{{< figure src="slide-12.ja.png" alt="DPU の最適化を比較したスライド" caption="DPU の最適化。B1024 を 2 枚使う場合と B4096 を 1 枚使う場合を比較し、後者を採用しました。" >}}
 
 加えて、B4096 側では **ALU Parallelism を 8** に設定しました。URAM/DRAM や DSP の設定も含めて FPGA リソースをできるだけ使い切る方向で調整しました。
 
@@ -79,9 +79,9 @@ KV260 上では `B1024 x 2` と `B4096 x 1` を比較し，最終的に **B4096 
 
 各段の処理時間とキュー占有率を可視化するツールも作りました．これを見ると，DPU より ReadFrame や DisplayFrame がボトルネックになる場面がありました．
 
-{{< figure src="/ja/notes/fpga-hackathon-kv260-yolov5/slide-18.png" alt="ソフトウェア全体の最適化を示すスライド" caption="ソフトウェア全体の最適化。ReadFrame、Pre-process、DPU、Post-process、DisplayFrame をまとめて見直しました。" >}}
+{{< figure src="slide-18.ja.png" alt="ソフトウェア全体の最適化を示すスライド" caption="ソフトウェア全体の最適化。ReadFrame、Pre-process、DPU、Post-process、DisplayFrame をまとめて見直しました。" >}}
 
-{{< figure src="/ja/notes/fpga-hackathon-kv260-yolov5/slide-14.png" alt="可視化ツールによる性能分析と改善のスライド" caption="可視化ツールによる性能分析と改善。推論だけでなく、ReadFrame と DisplayFrame もボトルネックになりました。" >}}
+{{< figure src="slide-14.ja.png" alt="可視化ツールによる性能分析と改善のスライド" caption="可視化ツールによる性能分析と改善。推論だけでなく、ReadFrame と DisplayFrame もボトルネックになりました。" >}}
 
 ここから入れた具体的な改善は次の通りです。
 
@@ -90,7 +90,7 @@ KV260 上では `B1024 x 2` と `B4096 x 1` を比較し，最終的に **B4096 
 - `PreProcess`: 正規化処理を LUT 化して、CPU 側の前処理を軽くする。
 - C++ 実装: メモリ管理やデータ受け渡しの無駄を削り、アイドル時間を減らす。
 
-{{< figure src="/ja/notes/fpga-hackathon-kv260-yolov5/slide-17.png" alt="最適化の結果を示すスライド" caption="最適化の結果。ReadFrame は 3 倍、DisplayFrame は 10 倍、DPU 側の推論処理は 3 倍程度高速化しました。" >}}
+{{< figure src="slide-17.ja.png" alt="最適化の結果を示すスライド" caption="最適化の結果。ReadFrame は 3 倍、DisplayFrame は 10 倍、DPU 側の推論処理は 3 倍程度高速化しました。" >}}
 
 資料では、ReadFrame のライブラリ切り替えで **約 3 倍**、DisplayFrame の呼び出し間引きで **約 10 倍** の改善がありました。
 当初は推論処理での計算処理よりCPUでの前処理と後処理の方が重かったために，
