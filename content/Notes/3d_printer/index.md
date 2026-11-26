@@ -22,7 +22,7 @@ His structure is simple enough that putting him together in Blender took almost 
 
 ![Blender viewport showing the Isty model with its outliner and material settings](blender.png "The model in Blender. The body is a single mesh; the antenna, arms, eyes, and mouth are curve objects.")
 
-Here is the exported model, embedded directly into this page.
+Here is the exported model, embedded directly into this page. \
 Drag to rotate him, and scroll to zoom. 
 **See how cute he is!**
 
